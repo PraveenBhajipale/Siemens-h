@@ -1,0 +1,67 @@
+div.logo {
+    border: 1px solid black;
+    height: 10vh;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    width: 125px;
+    height: 30px;
+    color: white;
+    padding: auto auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: end;
+}
+
+.cons-des {
+    color: #000000;
+    background-color: #FFA500;
+}
+
+.phy-des {
+    color: #000000;
+    background-color: #C8C8C8;
+}
+
+.view{
+    margin: 15px 30px 0px 30px;
+}
+
+.inner-div{
+    border: 1px solid;
+    display: inline-block;
+    height: 5vh;
+    max-width: 70px;
+    margin: 14px 0px 0px 30px;
+    padding: 2px 0px 0px 18px;
+}
+
+.nav-row{
+    border: 1px solid;
+    margin: 10px 15px 10px 15px;
+
+  }
+
+.bottom-content{
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    padding-top: 2px;
+}
+
+p{ 
+    width: 100px;
+    margin: 3% 0% 0% 91%;
+}
+
+a{
+    color: #000000;
+}

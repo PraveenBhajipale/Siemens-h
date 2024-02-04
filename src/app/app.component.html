@@ -1,0 +1,24 @@
+<div class="container-full view">
+  <div class="row logo">
+    <div class="col-sm">
+      <img src="../assets/siemens.png" width="150" height="66">
+    </div>
+    <div class="col-sm">
+      <p><a href="#" class="link-underline-light">Logout</a></p>
+    </div>
+  </div>
+<div class="bottom-content">
+  <div class="row nav-row">
+    <div class="col-sm">
+      <button type="submit" [ngClass]='consClass()' class="button" (click)="routeToConsultation()">Consultation</button>
+      <button class="button"[ngClass]='phyClass()' class="button" (click)="routeToPhysician()">Physician</button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
+</div>
